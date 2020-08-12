@@ -7,8 +7,8 @@ const b = getRandomIntInterval(6, 9)
 
 console.log(a,b);
 const c = a+b
-console.log (c)
+console.log(c)
 
 const p = a+b+c
-console.log (p)
+console.log(p)
 

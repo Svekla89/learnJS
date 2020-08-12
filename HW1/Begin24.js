@@ -1,18 +1,19 @@
 "use strict";
-const {getRandomIntInterval} = require("../utils")
+
 
 //Даны переменные A, B, C. Изменить их значения, переместив содержимое "A" в "C", "C" в "B", "B" в "A", 
 //и вывести новые значения переменных "A", "B", "C".
+const {getRandomIntInterval} = require("../utils")
 
+let a= getRandomIntInterval(1,9);
+let b= getRandomIntInterval(1,9);
+let c= getRandomIntInterval(1,9);
+let tempA, tempB
+console.log(a,b,c)
+tempA = a //4
+a=c; //9
+tempB = b //5
+b= tempA; //4
+c= tempB; //9
 
-let a="4";
-let b="5";
-let c="9";
-
-a=c;
-b=a;
-c=b;
-
-console.log (a)
-console.log (b)
-console.log (c)
+console.log(a,b,c)
