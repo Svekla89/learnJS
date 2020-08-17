@@ -25,4 +25,5 @@ if (C > 0) {
 } else if (C<0) {
     negative = negative +1
 }
+console.log(A,B,C)
 console.log(positive, negative)
