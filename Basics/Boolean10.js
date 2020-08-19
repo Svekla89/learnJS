@@ -9,6 +9,3 @@ if (A % 2 === 0) {
 } else {
     console.log(B)
 }
-
-
-

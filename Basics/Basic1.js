@@ -3,7 +3,7 @@
 const { getRandomIntInterval } = require("../utils")
 
 const a = getRandomIntInterval(0,8)
-console.log (a)
+console.log(a)
 const P = a * 4
-console.log (P)
+console.log(P)
 
