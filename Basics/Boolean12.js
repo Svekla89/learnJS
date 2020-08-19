@@ -11,5 +11,5 @@ const C = getRandomIntInterval(-1, 12)
 if ((A>0)&&(B>0)&&(C>0)) {
     console.log(A,B,C)
 } else {
-    console.log("одно из чисел отрицательное")
+    console.log('одно из чисел отрицательное')
 }
