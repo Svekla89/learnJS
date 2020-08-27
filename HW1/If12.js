@@ -2,8 +2,8 @@
 
 //Даны три числа. Найти наименьшее из них.
 
-const {getRandomIntInterval} = require("../utils")
-const A = getRandomIntInterval(0,9), B = getRandomIntInterval(0,9), C  = getRandomIntInterval(0,9)
+Const {getRandomIntInterval} = require("../utils")
+Const A = getRandomIntInterval(0,9), B = getRandomIntInterval(0,9), C  = getRandomIntInterval(0,9)
 console.log(A,B,C)
 let min;
 
